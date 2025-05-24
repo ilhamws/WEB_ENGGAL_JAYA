@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<body background="assets/images/background-batik-putih-2-300x300-1.png">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Page Landing</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/tooplate-main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/flex-slider.css">
+<!--
+Tooplate 2114 Pixie
+https://www.tooplate.com/view/2114-pixie
+-->
+
+    <!-- Firebase SDK -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+      import { getDatabase } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js";
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script src="assets/js/visitor-counter.js"></script>
+  </head>
+
+  <body>
+    
+    <!-- Pre Header -->
+    <div id="pre-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <span>PT.Enggal Jaya Semarang</span>
+          </div>
+          <div class="col-md-4 text-right">
+            <span>Pengunjung: <span id="visitor-count">0</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/logoutama.png" alt="" height="80px" width="85"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Service.html">Service
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Map</a>
+              <span class="sr-only">(current)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="contact-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Contact Us</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="map">
+            		
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.986007884589!2d110.4752273!3d-7.010928000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d01ca538db5%3A0xcb72cb3d91fd678d!2sEnggal%20Jaya!5e0!3m2!1sid!2sid!4v1737471691067!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Page Ends Here -->
+
+    
+    <!-- Footer Starts Here -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="logo2">
+              <img src="assets/images/logo1.jpg" height="500" width="1000">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">MAP</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
